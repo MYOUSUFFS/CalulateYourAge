@@ -1,0 +1,58 @@
+# CalulateYourAge
+My first own project in gitHub
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" href="Drive.ico" type="image/icon type">
+    <!-- <img src="E:\Web_Designing\Drive.ico" alt="" srcset=""> -->
+    <title>Simple Calculator</title>
+    <script>
+</script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <!--onload="pro()"-->
+    <div id="number">
+        <input id="view"
+            style="height: 18px;width: 105px;border-color: rgb(196, 190, 190);border-radius: 5px;text-align: center;"><br>
+        <p id="n"></p>
+
+        <div>
+            <button onclick="num('1')">1</button>
+            <button onclick="num('2')">2</button>
+            <button onclick="num('3')" class="nu1" id="numbers3" value="3">3</button>
+            <button onclick="num('+')" class="act">+</button>
+        </div>
+        <div>
+            <button onclick="num('4')">4</button>
+            <button onclick="num('5')">5</button>
+            <button onclick="num('6')">6</button>
+            <button onclick="num('-')" class="act">-</button>
+        </div>
+        <div>
+            <button onclick="num('7')">7</button>
+            <button onclick="num('8')">8</button>
+            <button onclick="num('9')">9</button>
+            <button onclick="num('*')" class="act">*</button>
+        </div>
+        <div>
+            <button onclick="num('%')" class="act">%</button>
+            <button onclick="num('0')">0</button>
+            <button onclick="num('.')">.</button>
+            <button onclick="num('/')" class="act">/</button>
+        </div>
+        <button id="cle" onclick="cle()">C</button>
+        <button id="back" onclick="backSpace()">B</button>
+        <button id="enter" onclick="enter()" style="height: 25px;width: 55px;">Enter</button>
+        <br>
+    </div>
+    <!-- <script src="calculator.js"></script> -->
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
