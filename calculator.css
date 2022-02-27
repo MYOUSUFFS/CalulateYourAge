@@ -1,0 +1,12 @@
+button {
+            height: 25px;
+            width: 25px;
+            margin: 2px 0px;
+            border-color: rgb(196, 190, 190);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #number {
+            text-align: center;
+        }
